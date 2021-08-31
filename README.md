@@ -12,19 +12,16 @@ In this page, a multitask computer aided diagnosis (CADx) framework is devised t
 
 
 ## Dependencies
-* python 3.7.11
-* numpy 1.20.3
-* h5py 3.4.0
-* pytorch 1.6.0
-* Pillow 8.3.1
-* scipy 1.6.2
-* torchray 1.0.0.2
-* torchvision 0.7.0
-* opencv-python 4.5.3.56
+* MATLAB2014
+* tensorflow >= 0.10.0rc0
+* h5py 2.3.1
+* scipy 0.18.0
+* Pillow 3.1.0
+* opencv2
 
 
 ## Pretrained Models
-Due to upload limit of Github, this page does not include checkpoint files. Please send request email to seongyeop@kaist.ac.kr if the checkpoint files are needed.
+Thanks to Davi Frossard you can download a pretrained weight here https://www.cs.toronto.edu/~frossard/vgg16/vgg16_weights.npz.
 
 ## How to use
 First, go into the 'data' directory and download "DDSM dataset"
